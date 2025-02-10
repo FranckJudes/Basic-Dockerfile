@@ -5,7 +5,6 @@ Ce projet contient un **Dockerfile** permettant de créer une image Docker ultra
 
 ##  Structure du projet
 ```
-/
 ├── Dockerfile  # Fichier contenant les instructions pour construire l'image Docker
 └── README.md   # Documentation du projet
 ```
@@ -22,7 +21,7 @@ Une fois l'image construite, vous pouvez l'exécuter avec la commande suivante :
 ```sh
 docker run --rm bonjour-capitaine
 ```
-🔹 **Sortie attendue :**
+ **Sortie attendue :**
 ```
 Bonjour, capitaine !
 ```
